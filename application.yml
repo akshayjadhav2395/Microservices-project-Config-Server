@@ -1,7 +1,4 @@
-application:
-  name: default-config
-    
-  eureka:
+ eureka:
     instance:
       prefer-ip-address: true
     client:
@@ -9,3 +6,4 @@ application:
       register-with-eureka: true
       service:url:
         defaultZone: http://localhost:8761/eureka
+ 
